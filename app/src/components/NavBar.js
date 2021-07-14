@@ -6,9 +6,9 @@ function NavBar() {
             {/* <img className="logo" alt="logo" src="../images/logo.png"/> */}
             <nav>
                 <ul className="nav_items">
-                <li><a href='#'>Services</a></li>
-                <li><a href='#'>Projects</a></li>
-                <li><a href='#'>Contact</a></li>
+                <li><a href='/'>Services</a></li>
+                <li><a href='/'>Projects</a></li>
+                <li><a href='/'>Contact</a></li>
                 </ul>
             </nav>
             
