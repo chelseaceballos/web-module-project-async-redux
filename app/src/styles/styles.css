@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Roboto+Slab:wght@500&display=swap');
+/* Portrait iPHONE X */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
+
+    * {
+        box-sizing: border-box;
+        margin:0;
+        padding: 0;
+        width: 100%;
+    }
+    body{
+        background-image: url(../images/coffee.png);
+    }
+    
+    li, a, button {
+        text-decoration: none;
+        color: #DDBEA9;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: bold;
+        font-size: 16px;
+        cursor:pointer;
+    }
+    
+    header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 30px 20%;
+        background-color: #6B705C;
+        height: 5vh;
+        width: 100%;
+    }
+    
+    .nav_items{
+        display:flex;
+        list-style: none;
+    }
+
+
+    footer{
+        background-color: #6B705C;
+        height: 180px;
+        color: #DDBEA9;
+        position: fixed;
+        left: 0;
+        bottom:0 ;
+        width:100;
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+        padding: 25px;
+    }
+
+ .box { 
+     display:flex;
+     flex-direction: column;
+     width: 80%;
+     height:200px;
+    line-height:200px;
+    background-color: #a5a58dec;
+    border: 2px white solid;
+    margin-top: 30%;
+    margin-left: 10%;
+    border-radius: 4%;
+}
+
+ .middle { 
+     display:inline-block;
+     vertical-align:middle;
+      line-height:2.2;
+      padding: 5% 20%; 
+      font-family: 'Roboto Slab', serif;
+      
+}
+
+button{
+   
+  background-color: #cb997ec9;
+  color:white;
+  border: 1px solid white;
+  padding: 7% ;
+  border-radius: 5%;
+  width: 55%;
+}
+
+.btn:hover{
+    box-shadow: 0 0 30px rgba(231, 125, 125, 0.2); 
+
+}
+
+}
